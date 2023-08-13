@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>API GitHub Profile Finder</title>
+</head>
+<body>
+    <div class="input">
+        <h1 class="titulo"> GitHub Profile Finder </h1>
+        <input type="text" id="username" placeholder="UserName">
+        <input type="button" value="Buscar" id="submit" onclick="submit()">
+    </div>
+
+    <div class="output">
+        <h1> Informações</h1>
+        <div id="img">
+            <img src="./img/exemplo.png">
+        </div>
+        <br>
+        <p>Nome</p>
+        <input type="text" id="name" placeholder="Nome" readonly>
+
+        <br>
+
+        <p>Username</p>
+        <input type="text" id="nickname" placeholder="Username" readonly>
+
+
+        <br>
+
+        <p>Nº de repositórios</p>
+        <input type="text" id="qttRepos" placeholder="Nº de repositórios" readonly>
+
+        <br>
+
+        <p>Seguidores</p>
+        <input type="text" id="qttFollowers" placeholder="Seguidores" readonly>
+
+        <br>
+
+        <p>Seguindo</p>
+        <input type="text" id="qttFollowing" placeholder="Seguindo" readonly>
+
+        <br>
+        <p>Link p/ repositorios</p>
+        <input type="text" id="reposLink" placeholder="Link p/ repositorios" readonly>
+        
+        <br>
+        
+        <!-- <input type="button" value="Clean" id="submit" onclick="clean()"> -->
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

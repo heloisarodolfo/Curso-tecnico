@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --background-color: #160d18;
+    --primary-color: #026f6e;
+    --secundary-color: #09456c;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+.titulo {
+    background-color: var(--secundary-color);
+    padding: 10px;
+    border-radius: 10px;
+    color:#fff;
+    margin-bottom: 8px;
+}
+
+img{
+    margin-top: 20px;
+    border-radius: 500px;
+    width: 35%;
+
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+    border-color: var(--primary-color);
+    width: 250px;
+}
+
+.output{
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    margin-top: 25px;
+
+}
+
+#submit{
+    background-color: var(--secundary-color);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+}
+
+#submit:hover{
+    background-color: var(--primary-color);
+}
